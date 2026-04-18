@@ -1,0 +1,282 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/haoranxu/Downloads/EEP523/ICTE2/HelloButtonApp/app/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /home/haoranxu/Downloads/EEP523/ICTE2/HelloButtonApp/app/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /home/haoranxu/Downloads/EEP523/ICTE2/HelloButtonApp/app/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /home/haoranxu/Downloads/EEP523/ICTE2/HelloButtonApp/app/src/main/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.android.material:material:1.12.0] /home/haoranxu/.gradle/caches/transforms-3/cb19507c7afb8a72ad8777d704a30d6a/transformed/material-1.12.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/haoranxu/.gradle/caches/transforms-3/82d446980af92298670e866af14d6961/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /home/haoranxu/.gradle/caches/transforms-3/e80efcec601c1b098cbae1255504e5b6/transformed/jetified-appcompat-resources-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] /home/haoranxu/.gradle/caches/transforms-3/f80f4926fa908b69c857b394c993db0c/transformed/appcompat-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/haoranxu/.gradle/caches/transforms-3/f579b1a600b23df072ba26ef2b1ae337/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.5.4] /home/haoranxu/.gradle/caches/transforms-3/efea9fa699980279c20cae81b076d6f3/transformed/fragment-1.5.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.9.0] /home/haoranxu/.gradle/caches/transforms-3/9472d6dee45c374cb7f8b43394286c04/transformed/jetified-activity-1.9.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/haoranxu/.gradle/caches/transforms-3/e51da638f483c2e6a3c656be6c2d7475/transformed/jetified-emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/haoranxu/.gradle/caches/transforms-3/0b21cbb44e4805e162147b8ae45ae53e/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/haoranxu/.gradle/caches/transforms-3/9b7c42ee465812df9c49911841831055/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/haoranxu/.gradle/caches/transforms-3/9ed7d20e41c842a8b5e9884855e19b3d/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] /home/haoranxu/.gradle/caches/transforms-3/87a5ae02217b0ce1e95d98223d28f22d/transformed/transition-1.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/haoranxu/.gradle/caches/transforms-3/d6d4cfc7c13b9abe09d4e9c1ec555909/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/haoranxu/.gradle/caches/transforms-3/3991c5224e7f169bb3e6a0c8b57a71e3/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/haoranxu/.gradle/caches/transforms-3/3dae7e885e85d9fe137cfb4e55710e65/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/haoranxu/.gradle/caches/transforms-3/9c9df71e9efe55d2147df59bd9b82bee/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/haoranxu/.gradle/caches/transforms-3/f702c34787f59e783bfafb77d210b4c9/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/haoranxu/.gradle/caches/transforms-3/96f2ed77acddf7c546bcead3e3fa3561/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/haoranxu/.gradle/caches/transforms-3/5f64b8d8c6221149be280cf902844ff9/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /home/haoranxu/.gradle/caches/transforms-3/49d4c7cb3a10bd6e25fed398fe992352/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.13.1] /home/haoranxu/.gradle/caches/transforms-3/a99467e9fc02aebaa86cb62e541aba37/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/haoranxu/.gradle/caches/transforms-3/1de234e7ebe4f19fe736d44f29207588/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /home/haoranxu/.gradle/caches/transforms-3/1d7b5052c34afda316635b062104746e/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /home/haoranxu/.gradle/caches/transforms-3/97e0d784dee263fd5c482213da5096f5/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/haoranxu/.gradle/caches/transforms-3/32ac4df172663acc7258c740767609c7/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /home/haoranxu/.gradle/caches/transforms-3/b5320b356cd2e83a90f60590c8fdc5f6/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /home/haoranxu/.gradle/caches/transforms-3/9e6aff59988d40c9d65f58b6ff86cb56/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /home/haoranxu/.gradle/caches/transforms-3/a709f3595d3b1e401ca9d2f7d4569a1d/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.1] /home/haoranxu/.gradle/caches/transforms-3/7dfdd0a181c6d2fee8a02f0d016aabd4/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/haoranxu/.gradle/caches/transforms-3/ca28533f4dcef614a2002671b50bfb2f/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/haoranxu/.gradle/caches/transforms-3/799e1b2589167b5acd5a9fe13d3c685d/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/haoranxu/.gradle/caches/transforms-3/8977f0e5a963a00a663e411d9f14a85a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/haoranxu/.gradle/caches/transforms-3/59d04fd904cdf426a2209cf08ff14b1f/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/haoranxu/.gradle/caches/transforms-3/cca5778b411468f50abab8dbd5057048/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/haoranxu/.gradle/caches/transforms-3/4c196da66f32bb6546c53c39f7b90be0/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/haoranxu/.gradle/caches/transforms-3/207a7b65348796d7326d166ee488d47b/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/haoranxu/.gradle/caches/transforms-3/9eff5922727e6d598380be8caf3d1341/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/haoranxu/.gradle/caches/transforms-3/d4663176eefd3969cfb67febfaa78dae/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/haoranxu/.gradle/caches/transforms-3/8afd57d7e0183a8a944431629c24a6ec/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/haoranxu/.gradle/caches/transforms-3/08e4fea06b84fe3686c83951bba5a31f/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/haoranxu/.gradle/caches/transforms-3/3bfea46447cd916b6a8f358affb754ae/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from /home/haoranxu/Downloads/EEP523/ICTE2/HelloButtonApp/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/haoranxu/Downloads/EEP523/ICTE2/HelloButtonApp/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/haoranxu/Downloads/EEP523/ICTE2/HelloButtonApp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/haoranxu/Downloads/EEP523/ICTE2/HelloButtonApp/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/haoranxu/Downloads/EEP523/ICTE2/HelloButtonApp/app/src/main/AndroidManifest.xml:4:5-17:19
+INJECTED from /home/haoranxu/Downloads/EEP523/ICTE2/HelloButtonApp/app/src/main/AndroidManifest.xml:4:5-17:19
+MERGED from [com.google.android.material:material:1.12.0] /home/haoranxu/.gradle/caches/transforms-3/cb19507c7afb8a72ad8777d704a30d6a/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] /home/haoranxu/.gradle/caches/transforms-3/cb19507c7afb8a72ad8777d704a30d6a/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/haoranxu/.gradle/caches/transforms-3/82d446980af92298670e866af14d6961/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/haoranxu/.gradle/caches/transforms-3/82d446980af92298670e866af14d6961/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/haoranxu/.gradle/caches/transforms-3/0b21cbb44e4805e162147b8ae45ae53e/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/haoranxu/.gradle/caches/transforms-3/0b21cbb44e4805e162147b8ae45ae53e/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.1] /home/haoranxu/.gradle/caches/transforms-3/a99467e9fc02aebaa86cb62e541aba37/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /home/haoranxu/.gradle/caches/transforms-3/a99467e9fc02aebaa86cb62e541aba37/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/haoranxu/.gradle/caches/transforms-3/32ac4df172663acc7258c740767609c7/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/haoranxu/.gradle/caches/transforms-3/32ac4df172663acc7258c740767609c7/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/haoranxu/.gradle/caches/transforms-3/8977f0e5a963a00a663e411d9f14a85a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/haoranxu/.gradle/caches/transforms-3/8977f0e5a963a00a663e411d9f14a85a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/haoranxu/.gradle/caches/transforms-3/cca5778b411468f50abab8dbd5057048/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/haoranxu/.gradle/caches/transforms-3/cca5778b411468f50abab8dbd5057048/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/haoranxu/.gradle/caches/transforms-3/9eff5922727e6d598380be8caf3d1341/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/haoranxu/.gradle/caches/transforms-3/9eff5922727e6d598380be8caf3d1341/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from /home/haoranxu/Downloads/EEP523/ICTE2/HelloButtonApp/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] /home/haoranxu/.gradle/caches/transforms-3/a99467e9fc02aebaa86cb62e541aba37/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /home/haoranxu/Downloads/EEP523/ICTE2/HelloButtonApp/app/src/main/AndroidManifest.xml:7:9-35
+	android:label
+		ADDED from /home/haoranxu/Downloads/EEP523/ICTE2/HelloButtonApp/app/src/main/AndroidManifest.xml:6:9-41
+	android:allowBackup
+		ADDED from /home/haoranxu/Downloads/EEP523/ICTE2/HelloButtonApp/app/src/main/AndroidManifest.xml:5:9-35
+	android:theme
+		ADDED from /home/haoranxu/Downloads/EEP523/ICTE2/HelloButtonApp/app/src/main/AndroidManifest.xml:8:9-52
+activity#com.example.hellobuttonapp.MainActivity
+ADDED from /home/haoranxu/Downloads/EEP523/ICTE2/HelloButtonApp/app/src/main/AndroidManifest.xml:9:9-16:20
+	android:exported
+		ADDED from /home/haoranxu/Downloads/EEP523/ICTE2/HelloButtonApp/app/src/main/AndroidManifest.xml:11:13-36
+	android:name
+		ADDED from /home/haoranxu/Downloads/EEP523/ICTE2/HelloButtonApp/app/src/main/AndroidManifest.xml:10:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/haoranxu/Downloads/EEP523/ICTE2/HelloButtonApp/app/src/main/AndroidManifest.xml:12:13-15:29
+action#android.intent.action.MAIN
+ADDED from /home/haoranxu/Downloads/EEP523/ICTE2/HelloButtonApp/app/src/main/AndroidManifest.xml:13:17-69
+	android:name
+		ADDED from /home/haoranxu/Downloads/EEP523/ICTE2/HelloButtonApp/app/src/main/AndroidManifest.xml:13:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/haoranxu/Downloads/EEP523/ICTE2/HelloButtonApp/app/src/main/AndroidManifest.xml:14:17-77
+	android:name
+		ADDED from /home/haoranxu/Downloads/EEP523/ICTE2/HelloButtonApp/app/src/main/AndroidManifest.xml:14:27-74
+uses-sdk
+INJECTED from /home/haoranxu/Downloads/EEP523/ICTE2/HelloButtonApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/haoranxu/Downloads/EEP523/ICTE2/HelloButtonApp/app/src/main/AndroidManifest.xml
+INJECTED from /home/haoranxu/Downloads/EEP523/ICTE2/HelloButtonApp/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.12.0] /home/haoranxu/.gradle/caches/transforms-3/cb19507c7afb8a72ad8777d704a30d6a/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] /home/haoranxu/.gradle/caches/transforms-3/cb19507c7afb8a72ad8777d704a30d6a/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/haoranxu/.gradle/caches/transforms-3/82d446980af92298670e866af14d6961/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/haoranxu/.gradle/caches/transforms-3/82d446980af92298670e866af14d6961/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /home/haoranxu/.gradle/caches/transforms-3/e80efcec601c1b098cbae1255504e5b6/transformed/jetified-appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /home/haoranxu/.gradle/caches/transforms-3/e80efcec601c1b098cbae1255504e5b6/transformed/jetified-appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] /home/haoranxu/.gradle/caches/transforms-3/f80f4926fa908b69c857b394c993db0c/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] /home/haoranxu/.gradle/caches/transforms-3/f80f4926fa908b69c857b394c993db0c/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/haoranxu/.gradle/caches/transforms-3/f579b1a600b23df072ba26ef2b1ae337/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/haoranxu/.gradle/caches/transforms-3/f579b1a600b23df072ba26ef2b1ae337/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] /home/haoranxu/.gradle/caches/transforms-3/efea9fa699980279c20cae81b076d6f3/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] /home/haoranxu/.gradle/caches/transforms-3/efea9fa699980279c20cae81b076d6f3/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.9.0] /home/haoranxu/.gradle/caches/transforms-3/9472d6dee45c374cb7f8b43394286c04/transformed/jetified-activity-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.0] /home/haoranxu/.gradle/caches/transforms-3/9472d6dee45c374cb7f8b43394286c04/transformed/jetified-activity-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/haoranxu/.gradle/caches/transforms-3/e51da638f483c2e6a3c656be6c2d7475/transformed/jetified-emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/haoranxu/.gradle/caches/transforms-3/e51da638f483c2e6a3c656be6c2d7475/transformed/jetified-emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/haoranxu/.gradle/caches/transforms-3/0b21cbb44e4805e162147b8ae45ae53e/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/haoranxu/.gradle/caches/transforms-3/0b21cbb44e4805e162147b8ae45ae53e/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/haoranxu/.gradle/caches/transforms-3/9b7c42ee465812df9c49911841831055/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/haoranxu/.gradle/caches/transforms-3/9b7c42ee465812df9c49911841831055/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/haoranxu/.gradle/caches/transforms-3/9ed7d20e41c842a8b5e9884855e19b3d/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/haoranxu/.gradle/caches/transforms-3/9ed7d20e41c842a8b5e9884855e19b3d/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] /home/haoranxu/.gradle/caches/transforms-3/87a5ae02217b0ce1e95d98223d28f22d/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] /home/haoranxu/.gradle/caches/transforms-3/87a5ae02217b0ce1e95d98223d28f22d/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/haoranxu/.gradle/caches/transforms-3/d6d4cfc7c13b9abe09d4e9c1ec555909/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/haoranxu/.gradle/caches/transforms-3/d6d4cfc7c13b9abe09d4e9c1ec555909/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/haoranxu/.gradle/caches/transforms-3/3991c5224e7f169bb3e6a0c8b57a71e3/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/haoranxu/.gradle/caches/transforms-3/3991c5224e7f169bb3e6a0c8b57a71e3/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/haoranxu/.gradle/caches/transforms-3/3dae7e885e85d9fe137cfb4e55710e65/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/haoranxu/.gradle/caches/transforms-3/3dae7e885e85d9fe137cfb4e55710e65/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/haoranxu/.gradle/caches/transforms-3/9c9df71e9efe55d2147df59bd9b82bee/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/haoranxu/.gradle/caches/transforms-3/9c9df71e9efe55d2147df59bd9b82bee/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/haoranxu/.gradle/caches/transforms-3/f702c34787f59e783bfafb77d210b4c9/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/haoranxu/.gradle/caches/transforms-3/f702c34787f59e783bfafb77d210b4c9/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/haoranxu/.gradle/caches/transforms-3/96f2ed77acddf7c546bcead3e3fa3561/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/haoranxu/.gradle/caches/transforms-3/96f2ed77acddf7c546bcead3e3fa3561/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/haoranxu/.gradle/caches/transforms-3/5f64b8d8c6221149be280cf902844ff9/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/haoranxu/.gradle/caches/transforms-3/5f64b8d8c6221149be280cf902844ff9/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/haoranxu/.gradle/caches/transforms-3/49d4c7cb3a10bd6e25fed398fe992352/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/haoranxu/.gradle/caches/transforms-3/49d4c7cb3a10bd6e25fed398fe992352/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.13.1] /home/haoranxu/.gradle/caches/transforms-3/a99467e9fc02aebaa86cb62e541aba37/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /home/haoranxu/.gradle/caches/transforms-3/a99467e9fc02aebaa86cb62e541aba37/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/haoranxu/.gradle/caches/transforms-3/1de234e7ebe4f19fe736d44f29207588/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/haoranxu/.gradle/caches/transforms-3/1de234e7ebe4f19fe736d44f29207588/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /home/haoranxu/.gradle/caches/transforms-3/1d7b5052c34afda316635b062104746e/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /home/haoranxu/.gradle/caches/transforms-3/1d7b5052c34afda316635b062104746e/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /home/haoranxu/.gradle/caches/transforms-3/97e0d784dee263fd5c482213da5096f5/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /home/haoranxu/.gradle/caches/transforms-3/97e0d784dee263fd5c482213da5096f5/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/haoranxu/.gradle/caches/transforms-3/32ac4df172663acc7258c740767609c7/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/haoranxu/.gradle/caches/transforms-3/32ac4df172663acc7258c740767609c7/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /home/haoranxu/.gradle/caches/transforms-3/b5320b356cd2e83a90f60590c8fdc5f6/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /home/haoranxu/.gradle/caches/transforms-3/b5320b356cd2e83a90f60590c8fdc5f6/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /home/haoranxu/.gradle/caches/transforms-3/9e6aff59988d40c9d65f58b6ff86cb56/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /home/haoranxu/.gradle/caches/transforms-3/9e6aff59988d40c9d65f58b6ff86cb56/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /home/haoranxu/.gradle/caches/transforms-3/a709f3595d3b1e401ca9d2f7d4569a1d/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /home/haoranxu/.gradle/caches/transforms-3/a709f3595d3b1e401ca9d2f7d4569a1d/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /home/haoranxu/.gradle/caches/transforms-3/7dfdd0a181c6d2fee8a02f0d016aabd4/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /home/haoranxu/.gradle/caches/transforms-3/7dfdd0a181c6d2fee8a02f0d016aabd4/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/haoranxu/.gradle/caches/transforms-3/ca28533f4dcef614a2002671b50bfb2f/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/haoranxu/.gradle/caches/transforms-3/ca28533f4dcef614a2002671b50bfb2f/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/haoranxu/.gradle/caches/transforms-3/799e1b2589167b5acd5a9fe13d3c685d/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/haoranxu/.gradle/caches/transforms-3/799e1b2589167b5acd5a9fe13d3c685d/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/haoranxu/.gradle/caches/transforms-3/8977f0e5a963a00a663e411d9f14a85a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/haoranxu/.gradle/caches/transforms-3/8977f0e5a963a00a663e411d9f14a85a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/haoranxu/.gradle/caches/transforms-3/59d04fd904cdf426a2209cf08ff14b1f/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/haoranxu/.gradle/caches/transforms-3/59d04fd904cdf426a2209cf08ff14b1f/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/haoranxu/.gradle/caches/transforms-3/cca5778b411468f50abab8dbd5057048/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/haoranxu/.gradle/caches/transforms-3/cca5778b411468f50abab8dbd5057048/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/haoranxu/.gradle/caches/transforms-3/4c196da66f32bb6546c53c39f7b90be0/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/haoranxu/.gradle/caches/transforms-3/4c196da66f32bb6546c53c39f7b90be0/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/haoranxu/.gradle/caches/transforms-3/207a7b65348796d7326d166ee488d47b/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/haoranxu/.gradle/caches/transforms-3/207a7b65348796d7326d166ee488d47b/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/haoranxu/.gradle/caches/transforms-3/9eff5922727e6d598380be8caf3d1341/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/haoranxu/.gradle/caches/transforms-3/9eff5922727e6d598380be8caf3d1341/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/haoranxu/.gradle/caches/transforms-3/d4663176eefd3969cfb67febfaa78dae/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/haoranxu/.gradle/caches/transforms-3/d4663176eefd3969cfb67febfaa78dae/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/haoranxu/.gradle/caches/transforms-3/8afd57d7e0183a8a944431629c24a6ec/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/haoranxu/.gradle/caches/transforms-3/8afd57d7e0183a8a944431629c24a6ec/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/haoranxu/.gradle/caches/transforms-3/08e4fea06b84fe3686c83951bba5a31f/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/haoranxu/.gradle/caches/transforms-3/08e4fea06b84fe3686c83951bba5a31f/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/haoranxu/.gradle/caches/transforms-3/3bfea46447cd916b6a8f358affb754ae/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/haoranxu/.gradle/caches/transforms-3/3bfea46447cd916b6a8f358affb754ae/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from /home/haoranxu/Downloads/EEP523/ICTE2/HelloButtonApp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/haoranxu/Downloads/EEP523/ICTE2/HelloButtonApp/app/src/main/AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /home/haoranxu/.gradle/caches/transforms-3/0b21cbb44e4805e162147b8ae45ae53e/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/haoranxu/.gradle/caches/transforms-3/32ac4df172663acc7258c740767609c7/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/haoranxu/.gradle/caches/transforms-3/32ac4df172663acc7258c740767609c7/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/haoranxu/.gradle/caches/transforms-3/8977f0e5a963a00a663e411d9f14a85a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/haoranxu/.gradle/caches/transforms-3/8977f0e5a963a00a663e411d9f14a85a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/haoranxu/.gradle/caches/transforms-3/cca5778b411468f50abab8dbd5057048/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/haoranxu/.gradle/caches/transforms-3/cca5778b411468f50abab8dbd5057048/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/haoranxu/.gradle/caches/transforms-3/0b21cbb44e4805e162147b8ae45ae53e/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/haoranxu/.gradle/caches/transforms-3/0b21cbb44e4805e162147b8ae45ae53e/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/haoranxu/.gradle/caches/transforms-3/0b21cbb44e4805e162147b8ae45ae53e/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/haoranxu/.gradle/caches/transforms-3/0b21cbb44e4805e162147b8ae45ae53e/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /home/haoranxu/.gradle/caches/transforms-3/0b21cbb44e4805e162147b8ae45ae53e/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/haoranxu/.gradle/caches/transforms-3/0b21cbb44e4805e162147b8ae45ae53e/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/haoranxu/.gradle/caches/transforms-3/0b21cbb44e4805e162147b8ae45ae53e/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/haoranxu/.gradle/caches/transforms-3/a99467e9fc02aebaa86cb62e541aba37/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /home/haoranxu/.gradle/caches/transforms-3/a99467e9fc02aebaa86cb62e541aba37/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/haoranxu/.gradle/caches/transforms-3/a99467e9fc02aebaa86cb62e541aba37/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+permission#com.example.hellobuttonapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/haoranxu/.gradle/caches/transforms-3/a99467e9fc02aebaa86cb62e541aba37/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /home/haoranxu/.gradle/caches/transforms-3/a99467e9fc02aebaa86cb62e541aba37/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/haoranxu/.gradle/caches/transforms-3/a99467e9fc02aebaa86cb62e541aba37/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/haoranxu/.gradle/caches/transforms-3/a99467e9fc02aebaa86cb62e541aba37/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/haoranxu/.gradle/caches/transforms-3/a99467e9fc02aebaa86cb62e541aba37/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+uses-permission#com.example.hellobuttonapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/haoranxu/.gradle/caches/transforms-3/a99467e9fc02aebaa86cb62e541aba37/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/haoranxu/.gradle/caches/transforms-3/a99467e9fc02aebaa86cb62e541aba37/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/haoranxu/.gradle/caches/transforms-3/32ac4df172663acc7258c740767609c7/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/haoranxu/.gradle/caches/transforms-3/32ac4df172663acc7258c740767609c7/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/haoranxu/.gradle/caches/transforms-3/32ac4df172663acc7258c740767609c7/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/haoranxu/.gradle/caches/transforms-3/8977f0e5a963a00a663e411d9f14a85a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/haoranxu/.gradle/caches/transforms-3/8977f0e5a963a00a663e411d9f14a85a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/haoranxu/.gradle/caches/transforms-3/8977f0e5a963a00a663e411d9f14a85a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/haoranxu/.gradle/caches/transforms-3/8977f0e5a963a00a663e411d9f14a85a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/haoranxu/.gradle/caches/transforms-3/8977f0e5a963a00a663e411d9f14a85a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/haoranxu/.gradle/caches/transforms-3/8977f0e5a963a00a663e411d9f14a85a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/haoranxu/.gradle/caches/transforms-3/8977f0e5a963a00a663e411d9f14a85a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/haoranxu/.gradle/caches/transforms-3/8977f0e5a963a00a663e411d9f14a85a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/haoranxu/.gradle/caches/transforms-3/8977f0e5a963a00a663e411d9f14a85a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/haoranxu/.gradle/caches/transforms-3/8977f0e5a963a00a663e411d9f14a85a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/haoranxu/.gradle/caches/transforms-3/8977f0e5a963a00a663e411d9f14a85a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/haoranxu/.gradle/caches/transforms-3/8977f0e5a963a00a663e411d9f14a85a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/haoranxu/.gradle/caches/transforms-3/8977f0e5a963a00a663e411d9f14a85a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/haoranxu/.gradle/caches/transforms-3/8977f0e5a963a00a663e411d9f14a85a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/haoranxu/.gradle/caches/transforms-3/8977f0e5a963a00a663e411d9f14a85a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/haoranxu/.gradle/caches/transforms-3/8977f0e5a963a00a663e411d9f14a85a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/haoranxu/.gradle/caches/transforms-3/8977f0e5a963a00a663e411d9f14a85a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/haoranxu/.gradle/caches/transforms-3/8977f0e5a963a00a663e411d9f14a85a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/haoranxu/.gradle/caches/transforms-3/8977f0e5a963a00a663e411d9f14a85a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/haoranxu/.gradle/caches/transforms-3/8977f0e5a963a00a663e411d9f14a85a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/haoranxu/.gradle/caches/transforms-3/8977f0e5a963a00a663e411d9f14a85a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92

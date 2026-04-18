@@ -1,0 +1,16 @@
+# Local Gradle caches (see build-debug-local.sh)
+.gradle-user-home/
+
+# Project-local JDK bootstrap
+.tools/
+
+# Gradle distribution unpacked by wrapper (zip + extract)
+gradle/wrapper/dists/
+
+# Default Gradle project caches
+.gradle/
+
+**/build/
+
+# Machine-specific Android SDK path
+local.properties

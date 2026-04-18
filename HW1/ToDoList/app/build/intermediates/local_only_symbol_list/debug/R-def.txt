@@ -1,0 +1,28 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color gray_bg
+color gray_dim
+color gray_light
+color gray_text
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id AddBTN
+id Check2
+id Del
+id TitleText
+id count_view
+id edit_btn
+id etAdd
+id my_recycler
+id taskText1
+id timeStr
+layout activity_main
+layout item_task
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Theme.ToDoList
+xml backup_rules
+xml data_extraction_rules

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Camera</string>
+    <string name="title_app">Camera</string>
+    <string name="desc_preview">Captured or selected image preview</string>
+    <string name="btn_take_image">Take Image</string>
+    <string name="btn_select_image">Select Image</string>
+    <string name="btn_delete_image">Delete Image</string>
+    <string name="btn_save_photo_library">Save to Photo Library</string>
+    <string name="msg_photo_captured">Image captured</string>
+    <string name="msg_capture_cancelled">Capture cancelled</string>
+    <string name="msg_pick_cancelled">No image selected</string>
+    <string name="msg_need_camera">Camera permission is required</string>
+    <string name="msg_no_camera_app">No camera app available</string>
+    <string name="msg_image_deleted">Image deleted</string>
+    <string name="msg_no_photo">Take or select an image first</string>
+    <string name="msg_saved_photo_library">Saved to photo library</string>
+    <string name="msg_save_failed">Could not save image</string>
+</resources>
