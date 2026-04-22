@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Shake Counter</string>
+    <string name="btn_reset">Reset Counter</string>
+    <string name="desc_accelerometer_values">Current accelerometer values</string>
+    <string name="desc_shake_count">Number of shakes detected</string>
+    <string name="label_x">X:</string>
+    <string name="label_y">Y:</string>
+    <string name="label_z">Z:</string>
+    <string name="msg_no_accelerometer">No accelerometer found on this device</string>
+    <string name="msg_permission_denied">Permission denied - shake detection may not work</string>
+    <string name="msg_permission_granted">Permission granted</string>
+    <string name="title_shake_counter">Shake Counter</string>
+    <style name="Theme.ShakeCounterApp" parent="Theme.Material3.DayNight.NoActionBar"/>
+</resources>

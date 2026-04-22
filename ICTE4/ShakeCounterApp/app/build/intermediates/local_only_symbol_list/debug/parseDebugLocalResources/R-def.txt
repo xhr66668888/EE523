@@ -1,0 +1,14 @@
+R_DEF: Internal format may change without notice
+local
+string app_name
+string btn_reset
+string desc_accelerometer_values
+string desc_shake_count
+string label_x
+string label_y
+string label_z
+string msg_no_accelerometer
+string msg_permission_denied
+string msg_permission_granted
+string title_shake_counter
+style Theme.ShakeCounterApp
