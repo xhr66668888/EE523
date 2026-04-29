@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="blue">#0000FF</color>
+    <color name="gray_light">#CCCCCC</color>
+    <color name="red">#FF0000</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">Drawing App</string>
+    <string name="btn_black">Black</string>
+    <string name="btn_blue">Blue</string>
+    <string name="btn_clear">Clear</string>
+    <string name="btn_red">Red</string>
+    <style name="Theme.DrawingApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/gray_light</item>
+        <item name="colorSecondaryVariant">@color/gray_light</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+</resources>

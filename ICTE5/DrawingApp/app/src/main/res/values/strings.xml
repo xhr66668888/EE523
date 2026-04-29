@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Drawing App</string>
+    <string name="btn_black">Black</string>
+    <string name="btn_red">Red</string>
+    <string name="btn_blue">Blue</string>
+    <string name="btn_clear">Clear</string>
+</resources>

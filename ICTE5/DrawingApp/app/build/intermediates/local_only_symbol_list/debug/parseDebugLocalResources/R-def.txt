@@ -1,0 +1,26 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color blue
+color gray_light
+color red
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable ic_placeholder
+id btnBlack
+id btnBlue
+id btnClear
+id btnRed
+id drawingView
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string btn_black
+string btn_blue
+string btn_clear
+string btn_red
+style Theme.DrawingApp
+xml backup_rules
+xml data_extraction_rules
