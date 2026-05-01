@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.3.2" type="partial_results">
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.example.bottomnavdrawing.MainActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <location id="R.color.blue"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="5"
+            column="12"
+            startOffset="141"
+            endLine="5"
+            endColumn="23"
+            endOffset="152"/>
+        <entry
+            name="model"
+            string="attr[colorPrimaryVariant(R)],color[black(U),white(U),red(D),blue(D),gray_light(U)],drawable[ic_launcher_background(U),ic_launcher_foreground(U),ic_placeholder(D)],id[fragmentContainer(U),bottomNavigationView(U),clearButton(U),drawingView(U),nav_home(U),nav_drawing(U),nav_settings(U)],layout[activity_main(U),fragment_drawing(U),fragment_home(U),fragment_settings(U)],menu[navigation_menu(U)],mipmap[ic_launcher(U),ic_launcher_round(U)],string[app_name(U)],style[Theme_BottomNavDrawingApp(U),Theme_MaterialComponents_DayNight_DarkActionBar(R)],xml[data_extraction_rules(U),backup_rules(U)];10^a^14,15^6^7,16^6^7,18^19^1^2^5^0;;;"/>
+        <location id="R.drawable.ic_placeholder"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/ic_placeholder.xml"
+            line="2"
+            column="1"
+            startOffset="39"
+            endLine="22"
+            endColumn="10"
+            endOffset="948"/>
+        <location id="R.color.red"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="4"
+            column="12"
+            startOffset="103"
+            endLine="4"
+            endColumn="22"
+            endOffset="113"/>
+    </map>
+
+</incidents>

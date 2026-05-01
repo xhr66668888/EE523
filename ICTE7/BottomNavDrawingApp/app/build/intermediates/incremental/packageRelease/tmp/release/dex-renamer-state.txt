@@ -1,0 +1,4 @@
+#Fri May 01 02:33:01 UTC 2026
+base.0=/home/haoranxu/EE523/ICTE7/BottomNavDrawingApp/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

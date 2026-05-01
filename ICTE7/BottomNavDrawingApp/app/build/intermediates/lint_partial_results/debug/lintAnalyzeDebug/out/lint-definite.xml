@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.3.2" type="incidents">
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Clear Drawing&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/fragment_drawing.xml"
+            line="11"
+            column="9"
+            startOffset="365"
+            endLine="11"
+            endColumn="37"
+            endOffset="393"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Welcome to Drawing App!&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/fragment_home.xml"
+            line="10"
+            column="9"
+            startOffset="331"
+            endLine="10"
+            endColumn="47"
+            endOffset="369"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Settings coming soon...&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/fragment_settings.xml"
+            line="10"
+            column="9"
+            startOffset="331"
+            endLine="10"
+            endColumn="47"
+            endOffset="369"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Home&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/menu/navigation_menu.xml"
+            line="4"
+            column="9"
+            startOffset="119"
+            endLine="4"
+            endColumn="29"
+            endOffset="139"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Draw&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/menu/navigation_menu.xml"
+            line="9"
+            column="9"
+            startOffset="262"
+            endLine="9"
+            endColumn="29"
+            endOffset="282"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Settings&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/menu/navigation_menu.xml"
+            line="14"
+            column="9"
+            startOffset="398"
+            endLine="14"
+            endColumn="33"
+            endOffset="422"/>
+    </incident>
+
+    <incident
+        id="MonochromeLauncherIcon"
+        severity="warning"
+        message="The application adaptive icon is missing a monochrome tag">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-anydpi-v26/ic_launcher.xml"
+            line="2"
+            column="1"
+            startOffset="39"
+            endLine="5"
+            endColumn="17"
+            endOffset="272"/>
+    </incident>
+
+    <incident
+        id="MonochromeLauncherIcon"
+        severity="warning"
+        message="The application adaptive roundIcon is missing a monochrome tag">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-anydpi-v26/ic_launcher_round.xml"
+            line="2"
+            column="1"
+            startOffset="39"
+            endLine="5"
+            endColumn="17"
+            endOffset="272"/>
+    </incident>
+
+    <incident
+        id="ClickableViewAccessibility"
+        severity="warning"
+        message="Custom view `DrawingView` overrides `onTouchEvent` but not `performClick`">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/bottomnavdrawing/DrawingView.kt"
+            line="41"
+            column="18"
+            startOffset="1164"
+            endLine="41"
+            endColumn="30"
+            endOffset="1176"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.core:core-ktx than 1.13.1 is available: 1.18.0">
+        <fix-replace
+            description="Change to 1.18.0"
+            family="Update versions"
+            oldString="1.13.1"
+            replacement="1.18.0"/>
+        <location
+            file="$HOME/EE523/ICTE7/BottomNavDrawingApp/gradle/libs.versions.toml"
+            line="4"
+            column="11"
+            startOffset="53"
+            endLine="4"
+            endColumn="19"
+            endOffset="61"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.3.0">
+        <fix-replace
+            description="Change to 1.3.0"
+            family="Update versions"
+            oldString="1.1.5"
+            replacement="1.3.0"/>
+        <location
+            file="$HOME/EE523/ICTE7/BottomNavDrawingApp/gradle/libs.versions.toml"
+            line="6"
+            column="16"
+            startOffset="94"
+            endLine="6"
+            endColumn="23"
+            endOffset="101"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.7.0">
+        <fix-replace
+            description="Change to 3.7.0"
+            family="Update versions"
+            oldString="3.5.1"
+            replacement="3.7.0"/>
+        <location
+            file="$HOME/EE523/ICTE7/BottomNavDrawingApp/gradle/libs.versions.toml"
+            line="7"
+            column="16"
+            startOffset="117"
+            endLine="7"
+            endColumn="23"
+            endOffset="124"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.appcompat:appcompat than 1.7.0 is available: 1.7.1">
+        <fix-replace
+            description="Change to 1.7.1"
+            family="Update versions"
+            oldString="1.7.0"
+            replacement="1.7.1"/>
+        <location
+            file="$HOME/EE523/ICTE7/BottomNavDrawingApp/gradle/libs.versions.toml"
+            line="8"
+            column="13"
+            startOffset="137"
+            endLine="8"
+            endColumn="20"
+            endOffset="144"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.android.material:material than 1.12.0 is available: 1.13.0">
+        <fix-replace
+            description="Change to 1.13.0"
+            family="Update versions"
+            oldString="1.12.0"
+            replacement="1.13.0"/>
+        <location
+            file="$HOME/EE523/ICTE7/BottomNavDrawingApp/gradle/libs.versions.toml"
+            line="9"
+            column="12"
+            startOffset="156"
+            endLine="9"
+            endColumn="20"
+            endOffset="164"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.activity:activity than 1.9.0 is available: 1.13.0">
+        <fix-replace
+            description="Change to 1.13.0"
+            family="Update versions"
+            oldString="1.9.0"
+            replacement="1.13.0"/>
+        <location
+            file="$HOME/EE523/ICTE7/BottomNavDrawingApp/gradle/libs.versions.toml"
+            line="10"
+            column="12"
+            startOffset="176"
+            endLine="10"
+            endColumn="19"
+            endOffset="183"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.1">
+        <fix-replace
+            description="Change to 2.2.1"
+            family="Update versions"
+            oldString="2.1.4"
+            replacement="2.2.1"/>
+        <location
+            file="$HOME/EE523/ICTE7/BottomNavDrawingApp/gradle/libs.versions.toml"
+            line="11"
+            column="20"
+            startOffset="203"
+            endLine="11"
+            endColumn="27"
+            endOffset="210"/>
+    </incident>
+
+    <incident
+        id="AndroidGradlePluginVersion"
+        severity="warning"
+        message="A newer version of com.android.application than 8.3.2 is available: 9.2.0">
+        <fix-replace
+            description="Change to 9.2.0"
+            family="Update versions"
+            oldString="8.3.2"
+            replacement="9.2.0"/>
+        <location
+            file="$HOME/EE523/ICTE7/BottomNavDrawingApp/gradle/libs.versions.toml"
+            line="2"
+            column="7"
+            startOffset="17"
+            endLine="2"
+            endColumn="14"
+            endOffset="24"/>
+    </incident>
+
+</incidents>
