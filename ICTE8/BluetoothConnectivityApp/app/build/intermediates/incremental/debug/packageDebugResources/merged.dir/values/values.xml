@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="blue">#0000FF</color>
+    <color name="gray_light">#CCCCCC</color>
+    <color name="red">#FF0000</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">Bluetooth App</string>
+    <string name="btn_check_bluetooth">Check Bluetooth</string>
+    <string name="btn_show_devices">Show Devices</string>
+    <string name="status_available">Bluetooth is available.</string>
+    <string name="status_checking">Checking Bluetooth…</string>
+    <string name="status_connected">Connected to %s.</string>
+    <string name="status_connecting">Connecting to %s…</string>
+    <string name="status_connection_failed">Connection failed. Check if the device is powered on and paired.</string>
+    <string name="status_no_devices">No paired devices found.</string>
+    <string name="status_not_enabled">Bluetooth not enabled. Please turn it on.</string>
+    <string name="status_not_supported">Bluetooth is not supported on this device.</string>
+    <string name="status_permission_denied">Permission denied. Cannot scan for devices.</string>
+    <string name="status_showing_devices">Showing paired devices.</string>
+    <style name="Theme.BluetoothApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/gray_light</item>
+        <item name="colorSecondaryVariant">@color/gray_light</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+</resources>

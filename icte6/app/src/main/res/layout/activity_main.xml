@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/phone_frame"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/screen_here"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="784dp"
+        android:background="@drawable/bg_screen"
+        android:paddingBottom="24dp">
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="@string/app_name"
+            android:textColor="@color/text_primary"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="32dp" />
+
+        <TextView
+            android:id="@+id/resetText"
+            android:layout_width="64dp"
+            android:layout_height="36dp"
+            android:background="@drawable/bg_reset_chip"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="@string/reset"
+            android:textColor="@color/primary_blue"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="62dp"
+            android:layout_marginEnd="24dp" />
+
+        <TextView
+            android:id="@+id/subtitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:text="@string/subtitle"
+            android:textColor="@color/text_secondary"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="163dp" />
+
+        <View
+            android:id="@+id/formPanel"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/bg_panel"
+            android:elevation="4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="188dp"
+            android:layout_marginEnd="19dp"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:id="@+id/billLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:text="@string/bill_amount"
+            android:textColor="@color/text_primary"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="204dp" />
+
+        <LinearLayout
+            android:id="@+id/billInputRow"
+            android:layout_width="0dp"
+            android:layout_height="43dp"
+            android:background="@drawable/bg_input"
+            android:elevation="4dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="9dp"
+            android:paddingEnd="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="230dp"
+            android:layout_marginEnd="40dp">
+
+            <TextView
+                android:layout_width="29dp"
+                android:layout_height="29dp"
+                android:background="@drawable/bg_icon_circle"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="$"
+                android:textColor="@color/primary_blue"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/billInput"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:layout_weight="1"
+                android:autofillHints="none"
+                android:background="@android:color/transparent"
+                android:hint="120.00"
+                android:inputType="numberDecimal"
+                android:padding="0dp"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:text="120.00"
+                android:textColor="@color/black"
+                android:textColorHint="#66000000"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/taxLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:text="@string/tax"
+            android:textColor="@color/text_primary"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="292dp" />
+
+        <LinearLayout
+            android:id="@+id/taxInputRow"
+            android:layout_width="0dp"
+            android:layout_height="43dp"
+            android:background="@drawable/bg_input"
+            android:elevation="4dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="9dp"
+            android:paddingEnd="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="318dp"
+            android:layout_marginEnd="40dp">
+
+            <TextView
+                android:layout_width="29dp"
+                android:layout_height="29dp"
+                android:background="@drawable/bg_icon_circle"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="%"
+                android:textColor="@color/primary_blue"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/taxInput"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:layout_weight="1"
+                android:autofillHints="none"
+                android:background="@android:color/transparent"
+                android:hint="8.25"
+                android:inputType="numberDecimal"
+                android:padding="0dp"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:text="8.25"
+                android:textColor="@color/black"
+                android:textColorHint="#66000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="%"
+                android:textColor="#B3000000"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tipLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:text="@string/tip_percentage"
+            android:textColor="@color/text_primary"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="380dp" />
+
+        <TextView
+            android:id="@+id/tip10Button"
+            android:layout_width="50dp"
+            android:layout_height="43dp"
+            android:background="@drawable/bg_tip_unselected"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:focusable="true"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="10%"
+            android:textColor="#B3000000"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="406dp" />
+
+        <TextView
+            android:id="@+id/tip12Button"
+            android:layout_width="50dp"
+            android:layout_height="43dp"
+            android:background="@drawable/bg_tip_unselected"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:focusable="true"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="12%"
+            android:textColor="#B3000000"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@id/tip10Button"
+            app:layout_constraintTop_toTopOf="@id/tip10Button"
+            android:layout_marginStart="16dp" />
+
+        <TextView
+            android:id="@+id/tip15Button"
+            android:layout_width="50dp"
+            android:layout_height="43dp"
+            android:background="@drawable/bg_tip_selected"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:focusable="true"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="15%"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@id/tip12Button"
+            app:layout_constraintTop_toTopOf="@id/tip10Button"
+            android:layout_marginStart="16dp" />
+
+        <TextView
+            android:id="@+id/tip18Button"
+            android:layout_width="50dp"
+            android:layout_height="43dp"
+            android:background="@drawable/bg_tip_unselected"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:focusable="true"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="18%"
+            android:textColor="#B3000000"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@id/tip15Button"
+            app:layout_constraintTop_toTopOf="@id/tip10Button"
+            android:layout_marginStart="15dp" />
+
+        <TextView
+            android:id="@+id/tip20Button"
+            android:layout_width="50dp"
+            android:layout_height="43dp"
+            android:background="@drawable/bg_tip_unselected"
+            android:clickable="true"
+            android:elevation="4dp"
+            android:focusable="true"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="20%"
+            android:textColor="#B3000000"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@id/tip18Button"
+            app:layout_constraintTop_toTopOf="@id/tip10Button"
+            android:layout_marginStart="16dp" />
+
+        <TextView
+            android:id="@+id/peopleLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:includeFontPadding="false"
+            android:text="@string/number_of_people"
+            android:textColor="@color/text_primary"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="468dp" />
+
+        <LinearLayout
+            android:id="@+id/peopleInputRow"
+            android:layout_width="0dp"
+            android:layout_height="43dp"
+            android:background="@drawable/bg_input"
+            android:elevation="4dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="494dp"
+            android:layout_marginEnd="40dp">
+
+            <TextView
+                android:id="@+id/decreasePeopleButton"
+                android:layout_width="50dp"
+                android:layout_height="43dp"
+                android:background="@drawable/bg_stepper"
+                android:clickable="true"
+                android:contentDescription="@string/decrease_people"
+                android:focusable="true"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="-"
+                android:textColor="#B3000000"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/peopleCountText"
+                android:layout_width="0dp"
+                android:layout_height="43dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="4"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/increasePeopleButton"
+                android:layout_width="50dp"
+                android:layout_height="43dp"
+                android:background="@drawable/bg_stepper"
+                android:clickable="true"
+                android:contentDescription="@string/increase_people"
+                android:focusable="true"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="+"
+                android:textColor="#B3000000"
+                android:textSize="34sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/calculateButton"
+            android:layout_width="0dp"
+            android:layout_height="43dp"
+            android:background="@drawable/bg_primary_button"
+            android:includeFontPadding="false"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:padding="0dp"
+            android:text="@string/calculate"
+            android:textAllCaps="false"
+            android:textColor="#E6FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="556dp"
+            android:layout_marginEnd="40dp" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/resultCard"
+            android:layout_width="0dp"
+            android:layout_height="142dp"
+            android:background="@drawable/bg_result_card"
+            android:elevation="5dp"
+            android:paddingStart="18dp"
+            android:paddingTop="14dp"
+            android:paddingEnd="18dp"
+            android:paddingBottom="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="618dp"
+            android:layout_marginEnd="40dp">
+
+            <View
+                android:id="@+id/resultVerticalDivider"
+                android:layout_width="1dp"
+                android:layout_height="104dp"
+                android:background="#998B8B8B"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/resultHorizontalDivider"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:background="#668B8B8B"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="61dp" />
+
+            <TextView
+                android:id="@+id/taxResultLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="@string/tax_amount"
+                android:textColor="@color/text_secondary"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@id/resultVerticalDivider"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginEnd="14dp" />
+
+            <TextView
+                android:id="@+id/taxResultText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="$9.90"
+                android:textColor="@color/primary_blue"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@id/taxResultLabel"
+                app:layout_constraintStart_toStartOf="@id/taxResultLabel"
+                app:layout_constraintTop_toBottomOf="@id/taxResultLabel"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/tipResultLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="@string/tip_amount"
+                android:textColor="@color/text_secondary"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/resultVerticalDivider"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginStart="14dp" />
+
+            <TextView
+                android:id="@+id/tipResultText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="$18.00"
+                android:textColor="@color/primary_blue"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@id/tipResultLabel"
+                app:layout_constraintStart_toStartOf="@id/tipResultLabel"
+                app:layout_constraintTop_toBottomOf="@id/tipResultLabel"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/totalResultLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="@string/final_total"
+                android:textColor="@color/text_secondary"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@id/resultVerticalDivider"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/resultHorizontalDivider"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="14dp" />
+
+            <TextView
+                android:id="@+id/totalResultText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="$147.90"
+                android:textColor="@color/primary_blue"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@id/totalResultLabel"
+                app:layout_constraintStart_toStartOf="@id/totalResultLabel"
+                app:layout_constraintTop_toBottomOf="@id/totalResultLabel"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/personResultLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="@string/per_person"
+                android:textColor="@color/text_secondary"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/resultVerticalDivider"
+                app:layout_constraintTop_toBottomOf="@id/resultHorizontalDivider"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="15dp" />
+
+            <TextView
+                android:id="@+id/personResultText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="$36.98"
+                android:textColor="@color/primary_blue"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@id/personResultLabel"
+                app:layout_constraintStart_toStartOf="@id/personResultLabel"
+                app:layout_constraintTop_toBottomOf="@id/personResultLabel"
+                android:layout_marginTop="8dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

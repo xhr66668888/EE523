@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_color">#F8F8F8</color>
+    <color name="card_tint">#1AECF4FF</color>
+    <color name="field_white">#FFFFFF</color>
+    <color name="primary_blue">#0058D1</color>
+    <color name="primary_blue_fill">#E60064EE</color>
+    <color name="text_primary">#333333</color>
+    <color name="text_secondary">#8B8B8B</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="phone_frame">#3A3A3A</color>
+</resources>

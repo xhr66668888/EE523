@@ -1,0 +1,34 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color blue
+color gray_light
+color red
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable ic_placeholder
+id btnCheckBluetooth
+id btnShowDevices
+id lvDevices
+id tvDevicesHeader
+id tvStatus
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string btn_check_bluetooth
+string btn_show_devices
+string status_available
+string status_checking
+string status_connected
+string status_connecting
+string status_connection_failed
+string status_no_devices
+string status_not_enabled
+string status_not_supported
+string status_permission_denied
+string status_showing_devices
+style Theme.BluetoothApp
+xml backup_rules
+xml data_extraction_rules

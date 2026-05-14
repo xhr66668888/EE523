@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smart Tip Splitter</string>
+    <string name="subtitle">Split bills fairly</string>
+    <string name="reset">Reset</string>
+    <string name="bill_amount">Bill Amount</string>
+    <string name="tax">Tax</string>
+    <string name="tip_percentage">Tip Percentage</string>
+    <string name="number_of_people">Number of People</string>
+    <string name="calculate">Calculate</string>
+    <string name="tax_amount">Tax Amount</string>
+    <string name="tip_amount">Tip Amount</string>
+    <string name="final_total">Final Total</string>
+    <string name="per_person">Per Person</string>
+    <string name="decrease_people">Decrease number of people</string>
+    <string name="increase_people">Increase number of people</string>
+</resources>
